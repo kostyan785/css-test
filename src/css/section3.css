@@ -1,0 +1,99 @@
+.section3 {
+    background-color: #FFF;    
+    padding-top: 64px;    
+    padding-bottom: 50px;
+}
+.section3__info h1 { 
+    text-align: left;
+}
+.section3__info .section__caption {
+    margin-top: 21px;    
+}
+.section3__info .button {
+    margin-top: 37px;
+}
+
+.section3 .tabs {
+    margin-top: 12px;
+    margin-left: 10px;
+}
+.section3 .tab_button {
+    box-shadow: unset;
+    flex-direction: column-reverse;      
+    padding: 12px;
+    position: relative;
+}
+.section3 .tabs .grid_item {
+    margin-bottom: 14px;
+}
+.section3 .tabs .grid_item:nth-child(odd) .tab_button {
+    margin-right: 7px;
+}
+.section3 .tabs .grid_item:nth-child(even) .tab_button {
+    margin-left: 7px;
+}    
+.section3 .tab_button__text {        
+    font-size: 14px;    
+    line-height: 20px;
+    min-height: 100%;
+    padding-top: 30px;    
+}
+.section3 .tab_button .icon {
+    margin: -22px 0px 10px 0px;
+    padding: 9px 10px;
+    position: absolute;
+    top: 16px;    
+}
+
+/* tablet */
+@media (max-width: 992px) {   }
+
+/* tablet-small */
+@media (max-width: 768px) {
+    .section3 {
+        padding-top: 15px;
+        padding-bottom: 20px;        
+    }    
+    .section3 .tab_button__text,
+    .section3__info .section__caption {                
+        font-size: 12px;
+    }
+}
+
+/* mobile */
+@media (max-width: 576px) {
+    .section3 {            
+        padding-top: 30px;        
+    }    
+    .section3__info h1,
+    .section3__info .section__caption { 
+        text-align: center;
+    }    
+    .section3__info .button {        
+        margin-top: 12px;        
+        width: 100%;
+    }
+    
+    .section3 .tabs {
+        margin-top: 42px;
+    }    
+    .section3 .tab_button {
+        box-shadow: 6px 4px 12px 0px #0000000D;
+    }    
+    .section3 .tab_button__text,
+    .section3__info .section__caption {                
+        font-size: 14px;
+    }
+    .section3 .tab_button .icon {    
+        padding: 7px 8px;        
+    }    
+}
+
+/* mobile-small */
+@media (max-width: 375px) { }
+
+@media (max-width: 350px) {
+    .section3 .tab_button__text {        
+        max-width: 100%;        
+    }    
+}

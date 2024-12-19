@@ -1,0 +1,24 @@
+.language {
+    float: right;
+    margin-bottom: 10px;
+}
+.language__item {
+    border-radius: 12px;
+    color: #29374E;
+    cursor: pointer;
+    float: left;
+    font-size: 14px;
+    height: 24px;
+    line-height: 13px;
+    margin-left: 10px;
+    padding: 5px;
+    width: 26px;
+}
+.language__item:hover {
+    opacity: 0.8;
+}
+.language__item.active, 
+.language__item:hover {
+    background-color: #FFF;
+    color: #0962E8;
+}
